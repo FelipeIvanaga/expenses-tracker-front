@@ -1,3 +1,4 @@
+import { ExpensesList } from "./components/ExpensesList";
 import { Hero } from "./pages/Hero";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
 	return (
 		<div>
 			<Hero />
+			<ExpensesList />
 		</div>
 	);
 }
